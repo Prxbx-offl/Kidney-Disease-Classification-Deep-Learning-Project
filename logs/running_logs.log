@@ -157,3 +157,104 @@ x==========x]
 [2024-04-21 20:27:45,798: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-04-21 21:26:51,141: INFO: main: >>>>>> stage Data Ingestation started <<<<<<]
+[2024-04-21 21:26:51,151: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-21 21:26:51,151: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-21 21:26:51,151: INFO: common: created directory at: artifacts]
+[2024-04-21 21:26:51,151: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-21 21:26:51,156: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1IbGUVXwE4R0kgrk9eC8blUw1LkEIawcF/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-21 21:26:58,941: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1IbGUVXwE4R0kgrk9eC8blUw1LkEIawcF/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-21 21:26:59,052: INFO: main: >>>>>> stage Data Ingestation completed <<<<<<
+
+x==========x]
+[2024-04-21 21:26:59,052: INFO: main: >>>>>> stage Model Building started <<<<<<]
+[2024-04-21 21:26:59,052: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-21 21:26:59,052: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-21 21:26:59,062: INFO: common: created directory at: artifacts]
+[2024-04-21 21:26:59,062: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-21 21:26:59,488: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-21 21:26:59,757: INFO: main: >>>>>> stage Model Building completed <<<<<<
+
+x==========x]
+[2024-04-21 21:26:59,757: INFO: main: >>>>>> stage Model Training started <<<<<<]
+[2024-04-21 21:26:59,757: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-21 21:26:59,757: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-21 21:26:59,767: INFO: common: created directory at: artifacts]
+[2024-04-21 21:26:59,767: INFO: common: created directory at: artifacts\training]
+[2024-04-21 21:27:22,578: INFO: main: >>>>>> stage Model Training completed <<<<<<
+
+x==========x]
+[2024-04-21 21:27:22,578: INFO: main: *******************]
+[2024-04-21 21:27:22,578: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-21 21:27:22,578: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-21 21:27:22,578: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-21 21:27:22,578: INFO: common: created directory at: artifacts]
+[2024-04-21 21:27:25,386: INFO: common: json file saved at: scores.json]
+[2024-04-21 21:27:25,388: INFO: common: json file saved at: scores.json]
+[2024-04-21 21:27:25,388: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-04-22 00:29:40,420: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion started <<<<<<]
+[2024-04-22 00:29:40,420: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-22 00:29:40,425: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-22 00:29:40,426: INFO: common: created directory at: artifacts]
+[2024-04-22 00:29:40,426: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-22 00:29:40,427: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1IbGUVXwE4R0kgrk9eC8blUw1LkEIawcF/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-22 00:29:47,567: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1IbGUVXwE4R0kgrk9eC8blUw1LkEIawcF/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-22 00:29:47,695: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion completed <<<<<<
+
+x==========x]
+[2024-04-22 00:31:04,494: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion started <<<<<<]
+[2024-04-22 00:31:04,494: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-22 00:31:04,494: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-22 00:31:04,494: INFO: common: created directory at: artifacts]
+[2024-04-22 00:31:04,494: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-22 00:31:04,500: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1IbGUVXwE4R0kgrk9eC8blUw1LkEIawcF/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-22 00:31:10,329: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1IbGUVXwE4R0kgrk9eC8blUw1LkEIawcF/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-22 00:31:10,425: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion completed <<<<<<
+
+x==========x]
+[2024-04-22 00:31:16,480: INFO: stage_02_model_building: >>>>>> stage Model Building started <<<<<<]
+[2024-04-22 00:31:16,480: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-22 00:31:16,480: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-22 00:31:16,480: INFO: common: created directory at: artifacts]
+[2024-04-22 00:31:16,480: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-22 00:31:16,878: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-22 00:31:17,234: INFO: stage_02_model_building: >>>>>> stage Model Building completed <<<<<<
+
+x==========x]
+[2024-04-22 00:31:51,452: INFO: stage_02_model_building: >>>>>> stage Model Building started <<<<<<]
+[2024-04-22 00:31:51,452: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-22 00:31:51,452: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-22 00:31:51,452: INFO: common: created directory at: artifacts]
+[2024-04-22 00:31:51,452: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-04-22 00:31:51,825: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-22 00:31:52,037: INFO: stage_02_model_building: >>>>>> stage Model Building completed <<<<<<
+
+x==========x]
+[2024-04-22 00:31:57,149: INFO: stage_03_model_training: >>>>>> stage Model Training started <<<<<<]
+[2024-04-22 00:31:57,149: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-22 00:31:57,149: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-22 00:31:57,149: INFO: common: created directory at: artifacts]
+[2024-04-22 00:31:57,156: INFO: common: created directory at: artifacts\training]
+[2024-04-22 00:32:19,931: INFO: stage_03_model_training: >>>>>> stage Model Training completed <<<<<<
+
+x==========x]
+[2024-04-22 00:32:47,640: INFO: stage_03_model_training: >>>>>> stage Model Training started <<<<<<]
+[2024-04-22 00:32:47,647: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-22 00:32:47,647: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-22 00:32:47,647: INFO: common: created directory at: artifacts]
+[2024-04-22 00:32:47,647: INFO: common: created directory at: artifacts\training]
+[2024-04-22 00:33:10,005: INFO: stage_03_model_training: >>>>>> stage Model Training completed <<<<<<
+
+x==========x]
+[2024-04-22 00:33:16,699: INFO: stage_04_model_evaluation: *******************]
+[2024-04-22 00:33:16,699: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-22 00:33:16,705: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml loaded successfully]
+[2024-04-22 00:33:16,707: INFO: common: yaml file: D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml loaded successfully]
+[2024-04-22 00:33:16,707: INFO: common: created directory at: artifacts]
+[2024-04-22 00:33:19,753: INFO: common: json file saved at: scores.json]
+[2024-04-22 00:33:19,754: INFO: common: json file saved at: scores.json]
+[2024-04-22 00:33:19,754: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

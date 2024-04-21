@@ -1,6 +1,6 @@
-from src.kidneyDiseaseClassifier.constants import *
-from src.kidneyDiseaseClassifier.utils.common import read_yaml, create_directories, save_json
-from src.kidneyDiseaseClassifier.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig, EvaluationConfig
+from kidneyDiseaseClassifier.constants import *
+from kidneyDiseaseClassifier.utils.common import read_yaml, create_directories, save_json
+from kidneyDiseaseClassifier.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig, TrainingConfig, EvaluationConfig
 import os
 from pathlib import Path
 

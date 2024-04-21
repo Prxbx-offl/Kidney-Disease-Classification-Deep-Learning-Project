@@ -2,10 +2,10 @@ Metadata-Version: 2.1
 Name: kidneyDiseaseClassifier
 Version: 0.0.0
 Summary: A small python package for CNN app
-Home-page: https://github.com/Priyanshu9898/Kidney-Disease-Classification-Deep-Learning-Project
-Author: Priyanshu9898
-Author-email: priyanshumalaviya9210@gmail.com
-Project-URL: Bug Tracker, https://github.com/Priyanshu9898/Kidney-Disease-Classification-Deep-Learning-Project/issues
+Home-page: https://github.com/Prxbx-offl/Kidney-Disease-Classification-Deep-Learning-Project
+Author: Prxbx-offl
+Author-email: prabathillai10@gmail.com
+Project-URL: Bug Tracker, https://github.com/Prxbx-offl/Kidney-Disease-Classification-Deep-Learning-Project/issues
 
 ## Kidney Disease Classification
 This project focuses on the classification of kidney diseases using deep learning and computer vision techniques. We have developed a complete pipeline encompassing data ingestion, transformation, model training, and evaluation. The project leverages technologies such as Next.js, TypeScript, TailwindCSS for the frontend, and Python, Flask, mlflow, DVC for the backend.
