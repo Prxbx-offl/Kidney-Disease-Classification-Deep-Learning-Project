@@ -12,7 +12,10 @@ class EvaluationPipeline:
         pass
 
     def main(self):
-        config = ConfigurationManager()
+        config = ConfigurationManager(
+            config_filepath=r'D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\config\config.yaml',
+            params_filepath=r'D:\newfolder\Kidney-Disease-Classification-Deep-Learning-Project\params.yaml'
+        )
         eval_config = config.get_evaluation_config()
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
