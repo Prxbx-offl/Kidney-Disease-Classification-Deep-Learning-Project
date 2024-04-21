@@ -1,5 +1,5 @@
-from kidneyDiseaseClassifier.config.configuration import ConfigurationManager
-from kidneyDiseaseClassifier.components.model_evaluation import Evaluation
+from src.kidneyDiseaseClassifier.config.configuration import ConfigurationManager
+from src.kidneyDiseaseClassifier.components.model_evaluation import Evaluation
 from kidneyDiseaseClassifier import logger
 
 
@@ -20,7 +20,7 @@ class EvaluationPipeline:
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
         evaluation.save_score()
-        # evaluation.log_into_mlflow()
+        evaluation.log_into_mlflow()
 
 
 
